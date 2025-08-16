@@ -1,0 +1,47 @@
+h2 {
+  color: rgb(90, 19, 222);
+}
+
+.font {
+  font-size: 20px;
+
+  .success {
+    color: rgb(9, 255, 0);
+  }
+  .error {
+    color: rgb(202, 36, 36);
+  }
+}
+
+.orange-red {
+  background-color: orangered;
+}
+
+.yellow {
+  background-color: yellow;
+}
+
+.cake {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: row;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  li {
+    margin: 10px 10px;
+    cursor: pointer;
+    color: rgb(51, 51, 51);
+    border: 1px solid transparent;
+    border-radius: 3px;
+    padding: 3px;
+    transition: border-color 0.3s ease, transform 0.2s ease;
+
+    &:hover {
+      color: #000; // change text color
+      transform: scale(1.05); // small zoom effect
+      border-color: #2c2c2c;
+      transition: all 0.2s ease-in-out;
+    }
+  }
+}
