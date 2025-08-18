@@ -1,18 +1,26 @@
 .container {
-  width: 500px;
+  width: 400px;
   height: 500px;
   background-color: aliceblue;
   border-radius: 3px;
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
+  align-items: stretch;
+  align-content: flex-start;
 }
 .container .item {
-  min-width: 100px;
+  flex-basis: 100px;
   height: 100px;
   background-color: rgb(188, 241, 255);
   border-radius: 3px;
   padding: 4px;
   margin: 5px;
+  flex-grow: 1;
+}
+.container .five,
+.container .six {
+  min-width: 220px;
 }
 
 /*# sourceMappingURL=flex.css.map */
