@@ -17,6 +17,9 @@
   padding: 4px;
   margin: 5px;
   flex-grow: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .container .five,
 .container .six {
